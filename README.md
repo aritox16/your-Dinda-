@@ -16,7 +16,7 @@ def curva():
         pen.rt(1)
         pen.fd(1)
         
-def love():
+def love(): Jangan malam-malam kalo tidur
     pen.fillcolor('red')
     pen.begin_fill()
     pen.lt(140)
@@ -30,7 +30,7 @@ def love():
 love()
 pen.ht()
 
-def tulis(pesan, pos):
+def tulis(pesan, pos): kalo ada hantu nanti repot
     x,y=pos
     pen.penup()
     pen.goto(x,y)
